@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	Complément au fichier Info.plist généré par Xcode (les autres clés viennent des réglages du projet).
+	L'outil HTTP doit pouvoir interroger des serveurs en http:// simple, ce que macOS interdit par défaut
+	aux applications. Voir docs/adr/0005-exceptions-de-securite-des-outils-http-et-tls.md.
+	-->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

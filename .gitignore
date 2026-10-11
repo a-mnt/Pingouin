@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Jamais de secrets dans le dépôt
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+.env
+
+# Anciennes versions gardées en attendant suppression
+_to_delete/
+
+# Copies de travail du projet Xcode
+*.avant-*
